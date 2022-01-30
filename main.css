@@ -1,4 +1,22 @@
 body{
 	font-family: 'Commissioner', sans-serif;
 	font-size: 16px;
+	text-align: center;
+}
+
+@media (max-width: 375px){
+	body{
+	}
+
+}
+
+/*Desktop Screen*/
+@media (min-width: 375px){
+	body{
+
+	}
+	nav ul{
+		display: flex;
+		flex-direction: row;
+	}
 }
