@@ -26,4 +26,10 @@ body{
 		list-style: none;
 		gap: 10px;
 	}
+
+	.checkbox{
+		border-color: gray;
+		border-width: 1px;
+		border-style: solid;
+	}
 }
