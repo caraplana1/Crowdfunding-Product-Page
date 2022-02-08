@@ -5,18 +5,16 @@ body{
 }
 
 @media (max-width: 375px){
-	body{
-	}
 
 }
 
 /*Desktop Screen*/
 @media (min-width: 375px){
-	body{
-
-	}
 	nav ul{
 		display: flex;
 		flex-direction: row;
+		justify-content: flex-end;
+		list-style: none;
+		gap: 10px;
 	}
 }
