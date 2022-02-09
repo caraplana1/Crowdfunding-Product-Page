@@ -34,7 +34,7 @@
     <h2>Mastercraft Bamboo Monitor Riser</h2>
     <p>A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
 
-    <div class="BlueButton" id="back">Back this project</div>
+    <div class="BlueButton" id="back" onclick="DisplayModal()">Back this project</div>
     
     <div id="bookmark">Bookmark</div>
   </div>
@@ -113,7 +113,9 @@
   </div>
 
   <!--Back this project modal-->
-  <div class="backModal">
+  <div id="backModal">
+
+    <img src="./images/icon-close-modal.svg" alt="close" onclick="UndisplayModal()">
 
     <h3> Back this project </h3>
     <p> Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world? </p>
