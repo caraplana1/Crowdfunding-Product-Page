@@ -30,7 +30,15 @@ nav ul{
 	}
 
 	nav{
+		display: grid;
+		grid-template-columns: 50% 50%;
 		margin-bottom: 20%;
+		padding: 0% 10%;
+		background: line;
+	}
+
+	nav img{
+		align-self: center;
 	}
 
 	nav ul{
