@@ -3,14 +3,17 @@ body{
 	font-size: 16px;
 	text-align: center;
 	background-repeat: no-repeat;
+	background-color: whitesmoke;
+}
+
+nav ul{
+	color: white;
 }
 
 @media (max-width: 375px){
 	body{
 		background-image: url("./images/image-hero-mobile.jpg");
 	}
-
-
 }
 
 /*Desktop Screen*/
@@ -19,12 +22,29 @@ body{
 		background-image: url("./images/image-hero-desktop.jpg");
 	}
 
+	article{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	nav{
+		margin-bottom: 20%;
+	}
+
 	nav ul{
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
 		list-style: none;
-		gap: 10px;
+		gap: 5%;
+	}
+
+	.card{
+		background-color: white;
+		border-radius: .25rem;
+		width: 50%;
 	}
 
 	#backModal{
