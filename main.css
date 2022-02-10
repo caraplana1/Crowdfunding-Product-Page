@@ -1,4 +1,39 @@
 body{
 	font-family: 'Commissioner', sans-serif;
 	font-size: 16px;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 375px){
+	body{
+		background-image: url("./images/image-hero-mobile.jpg");
+	}
+
+
+}
+
+/*Desktop Screen*/
+@media (min-width: 375px){
+	body{
+		background-image: url("./images/image-hero-desktop.jpg");
+	}
+
+	nav ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		list-style: none;
+		gap: 10px;
+	}
+
+	#backModal{
+		display: none;
+	}
+
+	.checkbox{
+		border-color: gray;
+		border-width: 1px;
+		border-style: solid;
+	}
 }
