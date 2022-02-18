@@ -3,14 +3,23 @@ body{
 	font-size: 16px;
 	text-align: center;
 	background-repeat: no-repeat;
+	background-color: whitesmoke;
 }
 
+nav ul{
+	color: white;
+}
+
+.card{
+	background-color: white;
+	border-radius: .25rem;
+}
+
+/*Mobile Screen*/
 @media (max-width: 375px){
 	body{
 		background-image: url("./images/image-hero-mobile.jpg");
 	}
-
-
 }
 
 /*Desktop Screen*/
@@ -19,21 +28,40 @@ body{
 		background-image: url("./images/image-hero-desktop.jpg");
 	}
 
+	main{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	nav{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		margin-bottom: 20%;
+		padding: 0% 10%;
+		background: line;
+	}
+
+	nav img{
+		align-self: center;
+	}
+
 	nav ul{
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
 		list-style: none;
-		gap: 10px;
+		gap: 5%;
 	}
 
-	#backModal{
+	.card{
+		background-color: white;
+		border-radius: .25rem;
+		width: 50%;
+	}
+
+	#backModal, #CompleteModal{
 		display: none;
-	}
-
-	.checkbox{
-		border-color: gray;
-		border-width: 1px;
-		border-style: solid;
 	}
 }
