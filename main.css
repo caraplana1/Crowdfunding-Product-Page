@@ -10,6 +10,12 @@ nav ul{
 	color: white;
 }
 
+.card{
+	background-color: white;
+	border-radius: .25rem;
+}
+
+/*Mobile Screen*/
 @media (max-width: 375px){
 	body{
 		background-image: url("./images/image-hero-mobile.jpg");
