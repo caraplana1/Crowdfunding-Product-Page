@@ -1,3 +1,7 @@
+#backModal{
+	z-index: 1;
+}
+
 /*Mobile Screen*/
 @media (max-width: 375px){
 
@@ -5,4 +9,18 @@
 
 /*Desktop Screen*/
 @media (min-width: 375px){
+	#backModal{
+		background-color: white;
+		width: 50%;
+		border-radius: .25rem;
+		position: fixed;
+		left: 25%;
+		top: 0;
+	}
+
+	.checkbox{
+		border-color: gray;
+		border-width: 1px;
+		border-style: solid;
+	}
 }

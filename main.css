@@ -61,13 +61,7 @@ nav ul{
 		width: 50%;
 	}
 
-	#backModal{
+	#backModal, #CompleteModal{
 		display: none;
-	}
-
-	.checkbox{
-		border-color: gray;
-		border-width: 1px;
-		border-style: solid;
 	}
 }
