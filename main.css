@@ -19,6 +19,17 @@ p{
 	color: hsl(0, 0%, 48%);
 }
 
+.blue{
+	color: hsl(176, 72%, 28%);
+}
+
+footer{
+	padding: 2.5% 0%;
+	margin-top: 5%;
+	background-color: white;
+	border-radius: .5rem;
+}
+
 /*Mobile Screen*/
 @media (max-width: 375px){
 	body{
@@ -75,7 +86,7 @@ p{
 
 	.horizontal{
 		display: grid;
-		grid-template-columns: 40% 35%;
+		grid-template-columns: auto 35%;
 		justify-content: space-between;
 		align-content: center;
 		margin: 2rem 0 0 0;
@@ -137,11 +148,44 @@ p{
 	#progress{
 		background-color: hsl(176, 50%, 47%);
 		border-radius: 5rem;
-		width: 89.9%;
+		width: 80%;
 		height: 10px;
 	}
 
-	#modal, #CompleteModal{
+	#thirdCard{
+		text-align: start;
+	}
+
+	#thirdCard h3{
+		margin: 0%;
+	}
+
+	.square{
+		border: 2px gainsboro solid;
+		border-radius: .5rem;
+		padding: 5%;
+		margin-top: 5%;
+	}
+
+	.separate{
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+
+	.separate *{
+		display: flex;
+		align-items: baseline;
+	}
+
+	.LastButton{
+		background-color: hsl(0, 0%, 48%);
+		color: white;
+		padding: 1rem 1.5rem;
+		border-radius: 5rem;
+	}
+
+	#modal, #CompleteModal, .pledge{
 		display: none;
 	}
 
