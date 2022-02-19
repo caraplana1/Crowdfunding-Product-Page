@@ -90,7 +90,7 @@ p{
 	}
 
 	#bookmarkContainer{
-		background-color: hsl(0, 0%, 48%);
+		background-color: gainsboro;
 		display: grid;
 		grid-template-columns: 40% 50%;
 		border-radius: 5rem;
@@ -107,7 +107,6 @@ p{
 	#bookmark{
 		border-radius: 5rem;
 		width: auto;
-		color: white;
 	}
 
 	#secondCard{
@@ -145,6 +144,6 @@ p{
 	}
 
 	#vLine{
-		border: .5px groove hsl(0, 0%, 48%);
+		border: .5px groove gainsboro;
 	}
 }
