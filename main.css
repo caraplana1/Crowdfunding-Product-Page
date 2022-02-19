@@ -59,7 +59,7 @@ p{
 		gap: 5%;
 	}
 
-	main img{
+	#logoMastercraft{
 		max-width: 3rem;
 		max-height: 3rem;
 		position: relative;
@@ -75,7 +75,7 @@ p{
 
 	.horizontal{
 		display: grid;
-		grid-template-columns: 60% 33%;
+		grid-template-columns: 40% 35%;
 		justify-content: space-between;
 		align-content: center;
 		margin: 2rem 0 0 0;
@@ -91,22 +91,24 @@ p{
 
 	#bookmarkContainer{
 		background-color: gainsboro;
-		display: grid;
-		grid-template-columns: 40% 50%;
+		display: flex;
+		align-items: center;
+		max-width: min-content;
+		max-height: min-content;
+		padding: 0% 25% 0% 0%;
 		border-radius: 5rem;
-		align-content: center;
 	}
 
 	#bookmarkLogo{
-		background-image: url("./images/icon-bookmark.svg");
-		background-repeat: no-repeat;
-		min-width: 80px;
-		min-height: 57px;
+		height: 56px;
 	}
 
 	#bookmark{
-		border-radius: 5rem;
-		width: auto;
+		background-color: gainsboro;
+		height: max-content;
+		margin: 0%;
+		padding-left: 15%;
+		word-wrap: break-word;
 	}
 
 	#secondCard{
