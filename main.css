@@ -38,7 +38,7 @@ nav ul{
 	nav{
 		display: grid;
 		grid-template-columns: 50% 50%;
-		margin-bottom: 20%;
+		margin-bottom: 15%;
 		padding: 0% 10%;
 		background: line;
 	}
@@ -53,6 +53,11 @@ nav ul{
 		justify-content: flex-end;
 		list-style: none;
 		gap: 5%;
+	}
+
+	main img{
+		position: relative;
+		top: 40px;
 	}
 
 	.card{
