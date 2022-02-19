@@ -61,7 +61,7 @@ nav ul{
 		width: 50%;
 	}
 
-	#backModal, #CompleteModal{
+	#modal, #CompleteModal{
 		display: none;
 	}
 }

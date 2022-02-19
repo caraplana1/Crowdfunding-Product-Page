@@ -1,4 +1,4 @@
-#backModal{
+#modalContent{
 	z-index: 1;
 }
 
@@ -9,7 +9,16 @@
 
 /*Desktop Screen*/
 @media (min-width: 375px){
-	#backModal{
+	#modal{
+		background-color: rgba(0, 0, 0, .4);
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	#modalContent{
 		background-color: white;
 		width: 50%;
 		border-radius: .25rem;
