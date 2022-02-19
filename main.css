@@ -15,6 +15,10 @@ nav ul{
 	border-radius: .25rem;
 }
 
+p{
+	color: hsl(0, 0%, 48%);
+}
+
 /*Mobile Screen*/
 @media (max-width: 375px){
 	body{
@@ -56,6 +60,8 @@ nav ul{
 	}
 
 	main img{
+		max-width: 3rem;
+		max-height: 3rem;
 		position: relative;
 		top: 40px;
 	}
@@ -63,7 +69,49 @@ nav ul{
 	.card{
 		background-color: white;
 		border-radius: .25rem;
-		width: 50%;
+		width: 40%;
+		padding: 0% 5%;
+	}
+
+	.horizontal{
+		display: grid;
+		grid-template-columns: 60% 33%;
+		justify-content: space-between;
+		align-content: center;
+		margin: 2rem 0;
+	}
+
+	.BlueButton{
+		background-color: hsl(176, 50%, 47%);
+		width: fit-content;
+		padding: 1rem 1.5rem;
+		border-radius: 5rem;
+		color: white;
+	}
+
+	#bookmarkContainer{
+		background-color: hsl(0, 0%, 48%);
+		display: grid;
+		grid-template-columns: 40% 50%;
+		border-radius: 5rem;
+		align-content: center;
+	}
+
+	#bookmarkLogo{
+		background-image: url("./images/icon-bookmark.svg");
+		background-repeat: no-repeat;
+		min-width: 80px;
+		min-height: 57px;
+	}
+
+	#bookmark{
+		border-radius: 5rem;
+		width: auto;
+		color: white;
+	}
+
+	#firstCard{
+		padding-top: 1.5rem;
 	}
 
 	#modal, #CompleteModal{
