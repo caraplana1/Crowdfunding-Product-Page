@@ -70,7 +70,7 @@ p{
 		background-color: white;
 		border-radius: .25rem;
 		width: 40%;
-		padding: 0% 5%;
+		padding: 2.5% 5%;
 	}
 
 	.horizontal{
@@ -78,7 +78,7 @@ p{
 		grid-template-columns: 60% 33%;
 		justify-content: space-between;
 		align-content: center;
-		margin: 2rem 0;
+		margin: 2rem 0 0 0;
 	}
 
 	.BlueButton{
@@ -110,11 +110,15 @@ p{
 		color: white;
 	}
 
-	#firstCard{
-		padding-top: 1.5rem;
+	#secondCard{
+		display: flex;
 	}
 
 	#modal, #CompleteModal{
 		display: none;
+	}
+
+	#vLine{
+		border: .5px solid hsl(0, 0%, 48%);
 	}
 }
