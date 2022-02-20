@@ -23,13 +23,6 @@ p{
 	color: hsl(176, 72%, 28%);
 }
 
-footer{
-	padding: 2.5% 0%;
-	margin-top: 5%;
-	background-color: white;
-	border-radius: .5rem;
-}
-
 /*Mobile Screen*/
 @media (max-width: 375px){
 	body{
