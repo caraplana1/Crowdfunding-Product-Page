@@ -33,96 +33,136 @@
   </nav>
   
   <main>
-    <div class="card">
+
+    <img src="./images/logo-mastercraft.svg" alt="mastercraft" srcset="" id="logoMastercraft">
+
+    <div class="card" id="firstCard">
       <h2>Mastercraft Bamboo Monitor Riser</h2>
       <p>A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
 
-      <div class="BlueButton" id="back" onclick="DisplayModal()">Back this project</div>
-      
-      <div id="bookmark">Bookmark</div>
-    </div>
+      <div class="horizontal">
 
-    <div class="card">
-      <div class="stat">
-        <h2>$89,914</h2>
-        <p>of $100,000 backed</p>
-      </div>
+        <div class="BlueButton" id="back" onclick="DisplayModal()">Back this project</div>
 
-      <div class="stat">
-        <h2>5,007</h2>
-        <p>total backers</p>
-      </div>
+        <div id="bookmarkContainer">
 
-      <div class="stat">
-        <h2>56</h2>
-        <p>days left</p>
+          <div id="bookmarkLogo"> 
+            <img src="./images/icon-bookmark.svg" alt="bookmark" srcset="">
+          </div>
+          <p id="bookmark">Bookmark</p>
+
+        </div>
+
       </div>
     </div>
 
     <div class="card">
-      <h3> About this project </h3>
+      <div id="secondCard">
 
-      <p>
-        The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
-        The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
-        The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
-        to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
-        to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
-        to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
-        your posture and make you more comfortable while at work, helping you stay focused on the task at hand.
-      </p>
+        <div class="stat">
+          <h2>$89,914</h2>
+          <p>of $100,000 backed</p>
+        </div>
 
-      <p>
-        Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
-      Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
-        Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
-        to allow notepads, pens, and USB sticks to be stored under the stand.
-      </p>
-      
-      <div class="square">
-        <h3> Bamboo Stand </h3>
-        <p class="blue"> Pledge $25 or more </p>
+        <div id="vLine"></div>
 
-        <p>
-          You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
-        You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
-          You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
-          you’ll be added to a special Backer member list.
-        </p>
+        <div class="stat">
+          <h2>5,007</h2>
+          <p>total backers</p>
+        </div>
 
-        <h2> 101 left </h2>
-        <div class="BlueButton" id="select"> Select Reward </div>
+        <div id="vLine"></div>
+         
+        <div class="stat">
+          <h2>56</h2>
+          <p>days left</p>
+        </div>
+
       </div>
 
-      <div class="square">
-        <h3> Black Edition Stand </h3>
-        <p class="blue"> Pledge $75 or more </p>
-
-        <p>
-          You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
-        You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
-          You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
-          member list. Shipping is included.
-        </p>
-
-        <h2> 64 left </h2>
-        <div class="BlueButton"> Select Reward </div>
+      <div id="progressBar">
+        <div id="progress"></div>
       </div>
+    </div>
 
-      <div class="square">
-        <h3 class="last"> Mahogany Special Edition </h3>
+    <div class="card">
 
-        <p class="LastBlue"> Pledge $200 or more </p>
+      <div id="thirdCard">
+        <h3> About this project </h3>
 
         <p>
-          You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
-        You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
-          You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
-          to our Backer member list. Shipping is included.
+          The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
+          to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
+          your posture and make you more comfortable while at work, helping you stay focused on the task at hand.
         </p>
 
-        <h2> 0 left </h2>
-        <div class="LastBlueButton"> Out of Stock </div>
+        <p>
+          Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
+          to allow notepads, pens, and USB sticks to be stored under the stand.
+        </p>
+        
+        <div class="square">
+          <div class="separate">
+            <h3> Bamboo Stand </h3>
+            <p class="blue"> Pledge $25 or more </p>
+          </div>
+
+          <p>
+            You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
+            you’ll be added to a special Backer member list.
+          </p>
+
+          <div class="separate">
+            <div>
+              <h2>101</h2>
+              <p>&nbsp left</p>
+            </div>
+            <div class="BlueButton" id="select"> Select Reward </div>
+          </div>
+        </div>
+
+        <div class="square">
+          <div class="separate">
+            <h3> Black Edition Stand </h3>
+            <p class="blue"> Pledge $75 or more </p>
+          </div>
+
+          <p>
+            You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
+            member list. Shipping is included.
+          </p>
+
+          <div class="separate">
+            <div>
+              <h2> 64 </h2>
+              <p>&nbsp left </p>
+            </div>
+
+            <div class="BlueButton"> Select Reward </div>
+          </div>
+        </div>
+
+        <div class="square" id="lastSquare">
+          <div class="separate">
+            <h3 > Mahogany Special Edition </h3>
+            <p class="blue"> Pledge $200 or more </p>
+          </div>
+
+          <p>
+            You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
+            to our Backer member list. Shipping is included.
+          </p>
+
+          <div class="separate">
+            <div>
+              <h2> 0 </h2>
+              <p>&nbsp left </p>
+            </div>
+
+            <div class="LastButton"> Out of Stock </div>
+          </div>
+        </div>
+
       </div>
 
     </div>
@@ -130,85 +170,95 @@
   </main>
 
   <!--Back this project modal-->
-  <div id="backModal">
+  <div id="modal">
+    <div id="modalContent">
 
-    <img src="./images/icon-close-modal.svg" alt="close" onclick="UndisplayModal()">
+      <header>
+        <img src="./images/icon-close-modal.svg" alt="close" onclick="UndisplayModal()">
+        <h3> Back this project </h3>
+        <p> Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world? </p>
+      </header>
 
-    <section>
+      <section>
 
-      <h3> Back this project </h3>
-      <p> Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world? </p>
+        <div class="checkbox">
+          <input type="checkbox" name="Pledge" id="pledge" checked="">
+          <h4> Pledge with no reward </h4>
+          <p>
+            Choose to support us without a reward if you simply believe in our project. As a backer, 
+            you will be signed up to receive product updates via email.
+          </p>
+        </div>
 
-      <div class="checkbox">
-        <input type="checkbox" name="Pledge" id="pledge" checked="">
-        <h4> Pledge with no reward </h4>
-        <p>
-          Choose to support us without a reward if you simply believe in our project. As a backer, 
-          you will be signed up to receive product updates via email.
-        </p>
-      </div>
+        <div class="checkbox">
+          <input type="checkbox" name="Bamboo" id="bamboo" checked="false">
 
-      <div class="checkbox">
-        <input type="checkbox" name="Bamboo" id="bamboo" checked="false">
+          <h4> Bamboo Stand </h4>
+          <h4 class="blue"> Pledge $25 or more </h4>
+          <h4> <b>101</b> left </h4>
 
-        <h4> Bamboo Stand </h4>
-        <h4 class="blue"> Pledge $25 or more </h4>
-        <h4> <b>101</b> left </h4>
+          <p>
+            You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
+            you’ll be added to a special Backer member list.
+          </p>
+        </div>
 
-        <p>
-          You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
-          you’ll be added to a special Backer member list.
-        </p>
-      </div>
+        <div class="checkbox">
+          <input type="checkbox" name="Black" id="black" checked="false">
 
-      <div class="checkbox">
-        <input type="checkbox" name="Black" id="black" checked="false">
+          <h4> Black Edition Stand </h4>
+          <h4 class="blue"> Pledge $75 or more </h4>
+          <h4> <b>64</b> left </h4>
 
-        <h4> Black Edition Stand </h4>
-        <h4 class="blue"> Pledge $75 or more </h4>
-        <h4> <b>64</b> left </h4>
+          <p>
+            You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
+            member list. Shipping is included.
+          </p>
+        </div>
 
-        <p>
-          You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
-          member list. Shipping is included.
-        </p>
-      </div>
+        <div class="lastCheckbox">
+          <input type="checkbox" name="Mahogany" id="mahogany" checked="false">
 
-      <div class="lastCheckbox">
-        <input type="checkbox" name="Mahogany" id="mahogany" checked="false">
+          <h4> Mahogany Special Edition </h4>
+          <h4 class="LastBlue"> Pledge $200 or more </h4>
+          <h4> <b>0</b> left </h4>
 
-        <h4> Mahogany Special Edition </h4>
-        <h4 class="LastBlue"> Pledge $200 or more </h4>
-        <h4> <b>0</b> left </h4>
+          <p>
+            You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
+            to our Backer member list. Shipping is included.
+          </p>
+        </div>
 
-        <p>
-          You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
-          to our Backer member list. Shipping is included.
-        </p>
-      </div>
+      </section>
 
-    </section>
-
+    </div>
 
   </div>
+
   <!-- Selected pledge start -->
-  Enter your pledge
-  $25
-  Continue
+  <div class="pledge">
+    Enter your pledge
+    $25
+    Continue
+  </div>
   <!-- Selected pledge end -->
 
 
   <!-- Selected pledge start -->
-  Enter your pledge
-  $75
-  Continue
+  <div class="pledge">
+    Enter your pledge
+    $75
+    Continue
+  </div>
   <!-- Selected pledge end -->
 
 
   <!-- Selected pledge  start -->
-  Enter your pledge
-  $200
-  Continue
+  <div class="pledge">
+    Enter your pledge
+    $200
+    Continue
+  </div>
   <!-- Selected pledge end -->
 
   <!-- Selection modal end -->
