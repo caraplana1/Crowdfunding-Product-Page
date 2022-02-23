@@ -1,6 +1,6 @@
 function DisplayModal(){
 	let modal = document.getElementById("modal")
-	modal.style.display = "block"
+	modal.style.display = "flex"
 }
 
 function UndisplayModal(){
