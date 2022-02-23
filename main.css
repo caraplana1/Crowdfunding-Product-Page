@@ -23,13 +23,6 @@ p{
 	color: hsl(176, 72%, 28%);
 }
 
-footer{
-	padding: 2.5% 0%;
-	margin-top: 5%;
-	background-color: white;
-	border-radius: .5rem;
-}
-
 /*Mobile Screen*/
 @media (max-width: 375px){
 	body{
@@ -86,7 +79,7 @@ footer{
 
 	.horizontal{
 		display: grid;
-		grid-template-columns: auto 35%;
+		grid-template-columns: 50% 50%;
 		justify-content: space-between;
 		align-content: center;
 		margin: 2rem 0 0 0;
@@ -95,41 +88,36 @@ footer{
 	.BlueButton{
 		background-color: hsl(176, 50%, 47%);
 		width: fit-content;
-		padding: 1rem 1.5rem;
+		padding: 1rem 7.5%;
 		border-radius: 5rem;
 		color: white;
 	}
 
 	#bookmarkContainer{
 		background-color: gainsboro;
-		display: flex;
+		display: grid;
+		grid-template-columns: auto auto;
 		align-items: center;
-		max-width: min-content;
-		max-height: min-content;
-		padding: 0% 25% 0% 0%;
+		justify-content: space-between;
+		padding-right: 7.5%;
 		border-radius: 5rem;
-	}
-
-	#bookmarkLogo{
-		height: 56px;
+		width: 55%;
+		justify-self: end;
 	}
 
 	#bookmark{
-		background-color: gainsboro;
-		height: max-content;
 		margin: 0%;
-		padding-left: 15%;
-		word-wrap: break-word;
+		width: min-content;
 	}
 
 	#secondCard{
 		display: flex;
 		justify-content: flex-start;
+		width: 100%;
 	}
 
 	.stat, #vLine{
 		margin-right: 7.5%;
-		white-space: nowrap;
 	}
 
 	.stat p, .stat h2{
