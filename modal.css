@@ -103,4 +103,21 @@
 		grid-area: 2/2/2/2;
 		margin-top: 2%;
 	}
+
+	.radio{
+		border: solid 1px gainsboro;
+		border-radius: 100%;
+		width: 50%;
+	}
+
+	.checked{
+		width: 60%;
+		height: 60%;
+		border-radius: 50%;
+		background-color: hsl(176, 50%, 47%);
+		position: relative;
+		top: 20%;
+		left: 20%;
+		display: none;
+	}
 }
